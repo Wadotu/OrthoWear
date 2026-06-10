@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.OrthodoxApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- 전체 배경 및 텍스트 -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/surfaceColor</item>
+        <item name="colorOnSurface">@color/onSurfaceColor</item>
+        <item name="android:textColor">@color/gold</item>
+
+        <!-- Primary 컬러 = 정교회 금색 -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryColor</item>
+        <item name="colorPrimaryContainer">@color/burgundy</item>
+        <item name="colorOnPrimaryContainer">@color/ivory</item>
+
+        <!-- Secondary (버건디) -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+
+        <!-- Tertiary (Icon Blue) -->
+        <item name="colorTertiary">@color/tertiaryColor</item>
+        <item name="colorOnTertiary">@color/onTertiaryColor</item>
+
+        <!-- Error 색 (다크 로즈) -->
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/onErrorColor</item>
+
+        <!-- 앱 전체 폰트 -->
+        <item name="android:fontFamily">@font/mbr</item>
+
+        <!-- 버튼 스타일 연결 -->
+        <item name="materialButtonStyle">@style/OrthodoxButton</item>
+        <item name="buttonStyle">@style/OrthodoxTextButton</item>
+
+        <!-- 카드/모달/BottomSheet 등도 동일 팔레트 적용 -->
+        <item name="materialCardViewStyle">@style/OrthodoxCard</item>
+
+    </style>
+
+    <style name="Theme.HolyBible" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- 전체 배경 및 텍스트 -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/ivory</item>
+        <item name="colorOnSurface">@color/gold</item>
+        <item name="android:textColor">@color/ivory</item>
+
+        <!-- Primary 컬러 = 정교회 금색 -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/ivory</item>
+        <item name="colorPrimaryContainer">@color/burgundy</item>
+        <item name="colorOnPrimaryContainer">@color/ivory</item>
+
+        <!-- Secondary (버건디) -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+
+        <!-- Tertiary (Icon Blue) -->
+        <item name="colorTertiary">@color/tertiaryColor</item>
+        <item name="colorOnTertiary">@color/onTertiaryColor</item>
+
+        <!-- Error 색 (다크 로즈) -->
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/onErrorColor</item>
+
+        <!-- 앱 전체 폰트 -->
+        <item name="android:fontFamily">@font/mbr</item>
+
+        <!-- 버튼 스타일 연결 -->
+        <item name="materialButtonStyle">@style/OrthodoxButton</item>
+        <item name="buttonStyle">@style/OrthodoxTextButton</item>
+
+        <!-- 카드/모달/BottomSheet 등도 동일 팔레트 적용 -->
+        <item name="materialCardViewStyle">@style/OrthodoxCard</item>
+
+    </style>
+
+    <style name="Theme.Chaps" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- 전체 배경 및 텍스트 -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/ivory</item>
+        <item name="colorOnSurface">@color/gold</item>
+        <item name="android:textColor">@color/gold</item>
+
+        <!-- Primary 컬러 = 정교회 금색 -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/ivory</item>
+        <item name="colorPrimaryContainer">@color/burgundy</item>
+        <item name="colorOnPrimaryContainer">@color/ivory</item>
+
+        <!-- Secondary (버건디) -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+
+        <!-- Tertiary (Icon Blue) -->
+        <item name="colorTertiary">@color/tertiaryColor</item>
+        <item name="colorOnTertiary">@color/onTertiaryColor</item>
+
+        <!-- Error 색 (다크 로즈) -->
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/onErrorColor</item>
+
+        <!-- 앱 전체 폰트 -->
+        <item name="android:fontFamily">@font/mbb</item>
+
+        <!-- 버튼 스타일 연결 -->
+        <item name="materialButtonStyle">@style/OrthodoxButton</item>
+        <item name="buttonStyle">@style/OrthodoxTextButton</item>
+
+        <!-- 카드/모달/BottomSheet 등도 동일 팔레트 적용 -->
+        <item name="materialCardViewStyle">@style/OrthodoxCard</item>
+
+    </style>
+</resources>

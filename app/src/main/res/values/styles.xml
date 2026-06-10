@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="OrthodoxButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/burgundy</item>
+        <item name="android:textColor">@color/ivory</item>
+    </style>
+
+    <style name="OrthodoxTextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="OrthodoxCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/burgundy</item>
+    </style>
+</resources>

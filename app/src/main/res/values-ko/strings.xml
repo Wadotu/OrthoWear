@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OrthoLife</string>
+    <string name="bible">성경</string>
+    <string name="prayer_rope">기도 매듭</string>
+    <string name="prayers">기도문</string>
+    <string name="icons">성화 (이콘)</string>
+    <string name="settings">설정</string>
+    <string name="text_size">글자 크기: %s</string>
+    <string name="language">언어: %s</string>
+    <string name="calendar">역법: %1$s</string>
+    <string name="julian">율리우스력</string>
+    <string name="revised_julian">개정 율리우스력</string>
+    <string name="christmas_day"> (성탄절: %1$s)</string>
+    <string name="copyright">Copyright 2025–2026. Wadotu Applications. All rights reserved.</string>
+
+    <!-- Calendar Strings -->
+    <string name="fast_day">금식</string>
+    <string name="fast_free">금식 없음</string>
+    <string name="fish_allowed">생선 허용</string>
+    <string name="wine_oil_allowed">포도주와 기름 허용</string>
+    <string name="no_feast">평일</string>
+    <string name="nativity_feast">주님 성탄 대축일(성탄절)</string>
+    <string name="theophany_feast">신현 축일</string>
+    <string name="pascha_feast">부활절 (성 대 빠스카)</string>
+    <string name="pentecost_feast">성령 강림 대축일 (오순절)</string>
+    <string name="presentation_christ">주님 입당 축일</string>
+    <string name="annunciation">성모 희보</string>
+    <string name="transfiguration">주 변모 축일</string>
+    <string name="dormition">성모 안식 축일</string>
+    <string name="nativity_theotokos">성모 탄생 축일</string>
+    <string name="elevation_cross">십자가 현양 축일</string>
+    <string name="presentation_theotokos">성모 입당 축일</string>
+    <string name="ascension_feast">주님 승천 축일</string>
+    <string name="palm_sunday_feast">주 예수 그리스도 예루살렘 입성 대축일 (종려 주일)</string>
+
+    <string name="saved">저장 완료!</string>
+    <string name="loaded">불러오기 완료!</string>
+    <string name="back_to_list">목록으로</string>
+
+    <string name="gospel">복음경</string>
+    <string name="epistle">성 사도 편지</string>
+    <string name="apostles">사도경</string>
+    <string name="acts">사도행전</string>
+    <string name="commemorations">시낙사리온</string>
+    <string name="saints">성인</string>
+    <string name="tone">제%d조</string>
+    <string name="lives_of_saints">성인전</string>
+    <string name="readings">성경 봉독</string>
+    <string name="complication_label">Orthodox Calendar Complication</string>
+    <string name="watch_no_feast">평일</string>
+
+    <string name="reading_label">독서</string>
+</resources>

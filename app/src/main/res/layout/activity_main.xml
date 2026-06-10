@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:theme="@style/Theme.OrthodoxApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_boxedEdges="all"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/appIcon"
+                android:layout_width="43sp"
+                android:layout_height="43sp"
+                android:layout_marginBottom="10sp"
+                android:src="@drawable/ic_launcher_round"/>
+
+            <Button
+                android:id="@+id/btn_holybible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성경"/>
+
+            <Button
+                android:id="@+id/btn_orthocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="달력(축일표)"/>
+
+            <Button
+                android:id="@+id/btn_kombo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기도 매듭" />
+
+            <Button
+                android:id="@+id/btn_prayers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기도문"/>
+
+            <Button
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성화(이콘)"/>
+
+            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="77sp"
+                android:layout_height="45sp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10sp"
+                android:background="@color/transparent"
+                android:textSize="20sp"
+                android:layout_marginBottom="40sp"
+                android:text="⚙️" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.wear.widget.BoxInsetLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 기본 색상 팔레트 (사용자 제공) -->
+    <color name="charcoal">#0F0F10</color>      <!-- 어두운 차콜 -->
+    <color name="ivory">#F6F0E6</color>         <!-- 따뜻한 아이보리 -->
+    <color name="gold">#BD8E0B</color>          <!-- 정교회 금색 -->
+    <color name="burgundy">#5A0F1E</color>      <!-- 보르도/버건디 -->
+    <color name="goldforclick">#DEAE43</color>
+    <color name="icon_blue">#1E4B7A</color>     <!-- 성상(Icon) 블루 -->
+    <color name="accent_rose">#B84B6B</color>   <!-- 장미빛 엑센트 -->
+    <color name="transparent">#00000000</color> <!-- 투명색 -->
+    <color name="komboskini_white">#FFFFFF</color>
+    <color name="komboskini_idle">#FFF8E1</color>  <!-- 아이보리: 기본 구슬 -->
+    <color name="komboskini_red">#8B0000</color>  <!-- 정교회 빨간색 -->
+
+    <!-- Material3 요구 컬러 확장 -->
+    <color name="primaryColor">@color/gold</color>
+    <color name="onPrimaryColor">@color/charcoal</color>
+
+    <color name="secondaryColor">@color/burgundy</color>
+    <color name="onSecondaryColor">@color/ivory</color>
+
+    <color name="tertiaryColor">@color/icon_blue</color>
+    <color name="onTertiaryColor">@color/ivory</color>
+
+    <color name="backgroundColor">@color/charcoal</color>
+    <color name="onBackgroundColor">@color/ivory</color>
+
+    <color name="surfaceColor">@color/charcoal</color>
+    <color name="onSurfaceColor">@color/ivory</color>
+
+    <color name="errorColor">@color/accent_rose</color>
+    <color name="onErrorColor">@color/ivory</color>
+
+</resources>

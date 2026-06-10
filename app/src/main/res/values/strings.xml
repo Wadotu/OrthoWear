@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">OrthoLife</string>
+    <string name="bible">Holy Bible</string>
+    <string name="prayer_rope">Prayer Rope</string>
+    <string name="prayers">Prayers</string>
+    <string name="icons">Holy Icons</string>
+    <string name="settings">Settings</string>
+    <string name="text_size">Text Size: %s</string>
+    <string name="language">Language: %s</string>
+    <string name="calendar">Calendar: %1$s</string>
+    <string name="julian">Julian Calendar</string>
+    <string name="revised_julian">Revised Julian Calendar</string>
+    <string name="christmas_day"> (Christmas: %1$s)</string>
+    <string name="copyright">Copyright 2025–2026. Wadotu Applications. All rights reserved.</string>
+
+    <!-- Calendar Strings -->
+    <string name="fast_day">Fast Day</string>
+    <string name="fast_free">Fast Free</string>
+    <string name="fish_allowed">Fish Allowed</string>
+    <string name="wine_oil_allowed">Wine and Oil Allowed</string>
+    <string name="no_feast">Ordinary Day</string>
+    <string name="nativity_feast">Nativity of our Lord</string>
+    <string name="theophany_feast">Theophany of our Lord</string>
+    <string name="pascha_feast">Holy Pascha</string>
+    <string name="pentecost_feast">Pentecost</string>
+    <string name="presentation_christ">Presentation of our Lord</string>
+    <string name="annunciation">Annunciation of the Theotokos</string>
+    <string name="transfiguration">Transfiguration of our Lord</string>
+    <string name="dormition">Dormition of the Theotokos</string>
+    <string name="nativity_theotokos">Nativity of the Theotokos</string>
+    <string name="elevation_cross">Elevation of the Holy Cross</string>
+    <string name="presentation_theotokos">Presentation of the Theotokos</string>
+    <string name="ascension_feast">Ascension of our Lord</string>
+    <string name="palm_sunday_feast">Entry into Jerusalem (Palm Sunday)</string>
+
+    <string name="saved">Saved!</string>
+    <string name="loaded">Loaded!</string>
+    <string name="back_to_list">Back to List</string>
+    <string name="settings_icon" translatable="false">⚙️</string>
+
+    <string name="gospel">Gospel</string>
+    <string name="epistle">Epistle</string>
+    <string name="apostles">Apostle</string>
+    <string name="acts">Acts</string>
+    <string name="commemorations">Commemorations</string>
+    <string name="saints">Saints</string>
+    <string name="lives_of_saints">Lives of Saints</string>
+    <string name="readings">Readings</string>
+    <string name="tone">Tone %d</string>
+    <string name="complication_label">Orthodox Calendar Complication</string>
+    <string name="watch_no_feast">No Feast</string>
+
+    <string name="reading_label">Readings</string>
+</resources>
+

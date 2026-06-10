@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.OrthodoxApp"
+    android:padding="6dp"
+    android:gravity="center">
+
+    <!-- 원형 구슬 컨테이너 -->
+    <FrameLayout
+        android:id="@+id/circleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@id/crossButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </FrameLayout>
+
+    <!-- 스피너 (원 개수 조절) -->
+    <Spinner
+        android:id="@+id/beadCountSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/counterView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/circleContainer" />
+
+    <!-- 기도 횟수 카운터 -->
+    <TextView
+        android:id="@+id/counterView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mbb"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/tertiaryColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 불러오기 버튼 -->
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="78dp"
+        android:layout_height="63dp"
+        android:background="#00000000"
+        android:text="📩"
+        android:textSize="12.7sp"
+        app:layout_constraintBottom_toBottomOf="@id/counterView"
+        app:layout_constraintEnd_toStartOf="@+id/counterView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/counterView" />
+
+    <!-- 저장 버튼 -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        android:text="💾"
+        android:textSize="12.7sp"
+        app:layout_constraintBottom_toBottomOf="@id/counterView"
+        app:layout_constraintEnd_toEndOf="@+id/circleContainer"
+        app:layout_constraintStart_toEndOf="@+id/counterView"
+        app:layout_constraintTop_toTopOf="@id/counterView" />
+
+    <!-- ☦ 기도 버튼 -->
+    <Button
+        android:id="@+id/crossButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/transparent"
+        android:fontFamily="sans-serif"
+        android:text="☦️"
+        android:textColor="@color/ivory"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counterView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

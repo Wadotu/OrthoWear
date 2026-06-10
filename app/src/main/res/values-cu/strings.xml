@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">OrthoLife</string>
+    <string name="bible">Священное Писание</string>
+    <string name="prayer_rope">Чётки</string>
+    <string name="prayers">Молитвы</string>
+    <string name="icons">Святые Иконы</string>
+    <string name="settings">Настройки</string>
+    <string name="text_size">Размер текста: %s</string>
+    <string name="language">Язык: %s</string>
+    <string name="calendar">Календарь: %1$s</string>
+    <string name="julian">Юлианский календарь</string>
+    <string name="revised_julian">Новоюлианский календарь</string>
+    <string name="christmas_day"> (Рождество: %1$s)</string>
+    <string name="copyright">Copyright 2025–2026. Wadotu Applications. All rights reserved.</string>
+
+    <!-- Calendar Strings -->
+    <string name="fast_day">Постный день</string>
+    <string name="fast_free">Поста нет</string>
+    <string name="fish_allowed">Разрешение на рыбу</string>
+    <string name="wine_oil_allowed">Разрешение на вино и елей</string>
+    <string name="no_feast">Будний день</string>
+    <string name="nativity_feast">Рождество Христово</string>
+    <string name="theophany_feast">Богоявление Господне</string>
+    <string name="pascha_feast">Святая Пасха</string>
+    <string name="pentecost_feast">День Святой Троицы (Пятидесятница)</string>
+    <string name="presentation_christ">Сретение Господне</string>
+    <string name="annunciation">Благовещение Пресвятой Богородицы</string>
+    <string name="transfiguration">Преображение Господне</string>
+    <string name="dormition">Успение Пресвятой Богородицы</string>
+    <string name="nativity_theotokos">Рождество Пресвятой Богородицы</string>
+    <string name="elevation_cross">Воздвижение Креста Господня</string>
+    <string name="presentation_theotokos">Введение во храм Пресвятой Богородицы</string>
+    <string name="ascension_feast">Вознесение Господне</string>
+    <string name="palm_sunday_feast">Вход Господень в Иерусалим (Вербное Воскресенье)</string>
+
+    <string name="saved">Сохранено!</string>
+    <string name="loaded">Загружено!</string>
+    <string name="back_to_list">Вернуться к списку</string>
+
+    <string name="gospel">Евангелие</string>
+    <string name="epistle">Апостол</string>
+    <string name="apostles">Апостол</string>
+    <string name="acts">Деяния</string>
+    <string name="commemorations">Синаксарь</string>
+    <string name="saints">Святые</string>
+    <string name="lives_of_saints">Жития святых</string>
+    <string name="readings">Чтения</string>
+    <string name="tone">Гласъ %d</string>
+    <string name="complication_label">Orthodox Calendar Complication</string>
+    <string name="watch_no_feast">Будний день</string>
+
+    <string name="reading_label">Чте́нія дне́</string>
+</resources>

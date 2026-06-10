@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OrthoLife</string>
+    <string name="bible">Αγία Γραφή</string>
+    <string name="prayer_rope">Κομποσχοίνι</string>
+    <string name="prayers">Προσευχές</string>
+    <string name="icons">Ιερές Εικόνες</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="text_size">Μέγεθος Κειμένου: %s</string>
+    <string name="language">Γλώσσα: %s</string>
+    <string name="calendar">Ημερολόγιο: %1$s</string>
+    <string name="julian">Ιουλιανό Ημερολόγιο</string>
+    <string name="revised_julian">Αναθεωρημένο Ιουλιανό Ημερολόγιο</string>
+    <string name="christmas_day"> (Χριστούγεννα: %1$s)</string>
+    <string name="copyright">Copyright 2025–2026. Wadotu Applications. All rights reserved.</string>
+
+    <!-- Calendar Strings -->
+    <string name="fast_day">Ημέρα Νηστείας</string>
+    <string name="fast_free">Κατάλυση</string>
+    <string name="fish_allowed">Κατάλυση ιχθύος</string>
+    <string name="wine_oil_allowed">Κατάλυση οίνου και ελαίου</string>
+    <string name="no_feast">Συνηθισμένη Ημέρα</string>
+    <string name="nativity_feast">Η Γέννηση του Κυρίου</string>
+    <string name="theophany_feast">Τα Άγια Θεοφάνεια</string>
+    <string name="pascha_feast">Το Άγιο Πάσχα</string>
+    <string name="pentecost_feast">Η Πεντηκοστή</string>
+    <string name="presentation_christ">Η Υπαπαντή του Κυρίου</string>
+    <string name="annunciation">Ο Ευαγγελισμός της Θεοτόκου</string>
+    <string name="transfiguration">Η Μεταμόρφωση του Σωτήρος</string>
+    <string name="dormition">Η Κοίμηση της Θεοτόκου</string>
+    <string name="nativity_theotokos">Το Γενέσιον της Θεοτόκου</string>
+    <string name="elevation_cross">Η Ύψωση του Τιμίου Σταυρού</string>
+    <string name="presentation_theotokos">Τα Εισόδια της Θεοτόκου</string>
+    <string name="ascension_feast">Η Ανάληψη του Κυρίου</string>
+    <string name="palm_sunday_feast">Η Είσοδος εις Ιεροσόλυμα (Κυριακή των Βαΐων)</string>
+
+    <string name="saved">Αποθηκεύτηκε!</string>
+    <string name="loaded">Φορτώθηκε!</string>
+    <string name="back_to_list">Επιστροφή στη λίστα</string>
+
+    <string name="gospel">Ευαγγέλιο</string>
+    <string name="epistle">Επιστολή</string>
+    <string name="apostles">Απόστολος</string>
+    <string name="acts">Πράξεις</string>
+    <string name="commemorations">Συναξάριον</string>
+    <string name="saints">Άγιοι</string>
+    <string name="lives_of_saints">Βίοι Αγίων</string>
+    <string name="readings">Αναγνώσματα</string>
+    <string name="tone">Ήχος %d</string>
+    <string name="complication_label">Orthodox Calendar Complication</string>
+    <string name="watch_no_feast">Συνηθισμένη Ημέρα</string>
+
+    <string name="reading_label">Αναγνώσματα</string>
+</resources>
